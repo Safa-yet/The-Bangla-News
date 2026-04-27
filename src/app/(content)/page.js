@@ -1,20 +1,10 @@
-import NewsContainer from "@/Component/ForMain Content/NewsContainer";
-import TextAnimate from "@/Component/ForMain Content/TextAnimate";
-import Navbar from "@/Component/Shared Ui/Navbar";
-import Image from "next/image";
-
-export default function Home() {
+import { redirect } from 'next/navigation';
+import React from 'react';
+const id = "01";
+const Home =async () => {
   return (
-    <>
-    <div className="space-y-8 container mx-auto">
-    <TextAnimate></TextAnimate>
-    <Navbar></Navbar>
-    <NewsContainer></NewsContainer>
-
-
-
-    </div>
-    </>
-
+  redirect(`/category/${id}`)
   );
-}
+};
+
+export default Home;

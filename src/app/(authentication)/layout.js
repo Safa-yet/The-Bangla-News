@@ -1,9 +1,15 @@
+
+
+
+
+import Header from '@/Component/ForMain Content/Header';
+import Navbar from '@/Component/Shared Ui/Navbar';
 import React from 'react';
 
 const AuthenticationLayout = ({children}) => {
     return (
         <div>
-            <h1>This is For Authenticatiom</h1>
+            <Navbar></Navbar>
             {
                 children
             }

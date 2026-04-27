@@ -64,7 +64,7 @@ const NewsCard = ({news}) => {
       </div>
 
       {/* Read More Link */}
-      <Link href="/news-details" className="text-orange-500 font-bold text-sm hover:underline">
+      <Link href={`/newsdetail/${news._id}`} className="text-orange-500 font-bold text-sm hover:underline">
         Read More
       </Link>
 
