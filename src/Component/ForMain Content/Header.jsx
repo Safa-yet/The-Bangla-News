@@ -14,7 +14,7 @@ const Header = () => {
       <h1 className={`lg:text-6xl text-2xl ${monsieur.className}`}>
         দ্যা বাংলা ✦ NEWS
       </h1>
-      <p className='text-sm'>Journalism Without Fear or Favour.</p>
+      <p className='text-sm'>Journalism Without Fear or Favour</p>
       <p className="lg:text-xl font-bold">{format(new Date(), "EEEE, MMMM dd yyyy")}</p>
     </div>
   );
